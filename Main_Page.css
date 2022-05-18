@@ -1,0 +1,48 @@
+body{
+    background-color: #012340;
+    padding-top: 3px;
+}
+
+.container-fluid, .navbar{
+    height: auto;
+    width:100%;
+}
+#navbarposition{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.navbar-header{
+    display: inline-block;
+}
+.custom-navbar-nav{
+    display: inline-block;
+    float: right;
+}
+
+#CarouselTitle{
+    color: white;
+    text-decoration-line: underline;
+    padding: 5px;
+    font-family:'PT Mono', monospace;
+}
+
+.jumbotron-fluid{
+    background: url(Images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: white;
+}
+
+.carousel-inner{
+    max-height: 450px;
+}
+#copyright{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
